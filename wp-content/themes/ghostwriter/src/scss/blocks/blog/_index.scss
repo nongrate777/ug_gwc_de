@@ -1,0 +1,176 @@
+.blog {
+    &-wrap {
+        overflow: hidden;
+    }
+
+    &__item {
+        position: relative;
+
+        &-title {
+            font-weight: 700;
+            margin: 16px 0;
+
+            a {
+                color: var(--black);
+            }
+        }
+
+        &-text {
+            font-size: 12px;
+            color: var(--gray);
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        &-image {
+            height: 200px;
+
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &__block {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        border-bottom: 2px solid var(--beige);
+        padding-bottom: 28px;
+        margin-bottom: 56px;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        a {
+            color: var(--black);
+            transition: .3s;
+        }
+
+        &-images {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex: 0 0 35%;
+        }
+
+        &-content {
+            flex: 0 0 calc(65% - 24px);
+            position: relative;
+            padding-bottom: 40px;
+        }
+        
+        &-title {
+            margin-bottom: 24px;
+
+            a {
+                transition: .3s;
+                
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+        
+        &-text {
+            font-weight: 500;
+            color: var(--gray);
+            -webkit-line-clamp: 3;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+    
+        &-status {
+            line-height: 1;
+            font-size: 14px;
+            display: inline-block;
+            padding: 4px 7px;
+            border: 1px solid var(--black);
+            color: var(--black);
+            margin-bottom: 20px;
+        }
+
+        &-info {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            color: var(--gray);
+            width: 100%;
+        }
+
+        &-author {
+            padding-right: 24px;
+
+            a {
+                white-space: nowrap;
+                font-weight: 500;
+                line-height: 16px;
+                color: var(--gray);
+                transition: .3s;
+                
+                &:hover {
+                    opacity: .7;
+                }
+            }
+        }
+
+        &-date {
+            padding-left: 30px;
+            position: relative;
+            
+            &:before {
+                content: "";
+                width: 6px;
+                height: 6px;
+                background: var(--gray);
+                background-size: 6px;
+                border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                margin-top: -3px;
+            }
+        }
+        
+        &-btn {
+            margin-left: auto;
+            
+            a {
+                font-weight: 700;
+                line-height: 16px;
+                color: var(--orange);
+                padding-right: 40px;
+                position: relative;
+                transition: 0.3s;
+                
+                &:hover {
+                    opacity: 0.7;
+                }
+    
+                &:after {
+                    content: "";
+                    width: 32px;
+                    height: 32px;
+                    background: url("/src/images/blog/img01.svg") no-repeat center center;
+                    background-size: 32px;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    margin-top: -16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.tiles {
+    margin-bottom: 60px;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 24px;
+        color: var(--light-black);
+    }
+
+    &__content {
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &-item {
+            flex: 0 0 calc(100%/3 - 22px);
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--yellow);
+            color: var(--black);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+}

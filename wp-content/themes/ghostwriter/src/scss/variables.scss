@@ -1,0 +1,38 @@
+// Цвета
+
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --beige: rgba(255, 247, 239, 1);
+    --yellow: rgba(255, 189, 0, 1);
+    --light-yellow: rgba(255, 207, 68, 1);
+    --orange: rgba(255, 82, 47, 1);
+        --orange-hover: rgba(255, 82, 47, .5);
+    --light-orange: rgba(255, 106, 75, 1);
+    --gray: rgba(110, 104, 112, 1);
+        --light-gray: rgba(204, 204, 204, 1);
+        --gray-trans: rgba(110, 104, 112, .2);
+    --green: rgba(27, 215, 66, 1);
+    --light-green: rgba(81, 198, 148, 1);
+    --blue: rgba(21, 172, 229, 1);
+        --dark-blue: rgba(0, 89, 165, 1);
+        --very-dark-blue: rgba(36, 51, 68, 1);
+        --very-dark-blue-hover: rgba(36, 51, 68, .5);
+    --purple: rgba(74, 79, 126, 1);
+    --black: rgba(0, 0, 0, 1);
+        --light-black: rgb(21, 17, 22);
+}
+
+// Вставка картинок псевдоклассом
+
+%insert-contacts {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 0;
+    background-position: center right;
+    margin-top: -8px;
+    pointer-events: none;
+}

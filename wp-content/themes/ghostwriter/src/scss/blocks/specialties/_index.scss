@@ -1,0 +1,82 @@
+.specialties {
+    &-wrap {
+        margin: 20px 0;
+        overflow: hidden;
+    }
+
+    &__item {
+        height: auto !important;
+        border-right: 2px solid var(--black);
+
+        &:last-child {
+            border-right: none;
+        }
+
+        &-title {
+            background-color: var(--yellow);
+            padding: 15px 10px 15px 54px;
+            position: relative;
+        }
+
+        &-list {
+            padding: 15px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+        margin: 15px;
+
+        span {
+            display: block;
+            font-size: 20px;
+        }
+    }
+}
+
+#theme-1,
+#theme-2,
+#theme-3,
+#theme-4 {
+    &:before {
+        content: "";
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+        background-size: 26px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+
+#theme-1 {
+    &:before {
+        background-image: url("/src/images/specialties/compliant.svg");
+    }
+}
+
+#theme-2 {
+    &:before {
+        background-image: url("/src/images/specialties/linguistics.svg");
+    }
+}
+
+#theme-3 {
+    &:before {
+        background-image: url("/src/images/specialties/caduceus.svg");
+    }
+}
+
+#theme-4 {
+    &:before {
+        background-image: url("/src/images/specialties/graduated.svg");
+    }
+}

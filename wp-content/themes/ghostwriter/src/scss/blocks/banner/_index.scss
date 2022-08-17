@@ -1,0 +1,93 @@
+.banner {
+    background-image: url("/src/images/banner/women.jpg");
+    background-position: top center;
+    background-size: cover;
+    color: var(--white);
+    text-align: center;
+    overflow: hidden;
+
+    &__message {
+        display: flex;
+        gap: 0 40px;
+        font-size: 24px;
+        margin: 20px 0 64px;
+        text-align: start;
+
+        &-item {
+            &-text {
+                font-weight: 800;
+                text-transform: uppercase;
+                font-size: 40px;
+                line-height: 40px;
+
+                span {
+                    color: var(--yellow);
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 366px;
+                        height: 200px;
+                        bottom: 29px;
+                        left: 162px;
+                        background-image: url("/src/images/banner/sell.png");
+                        background-size: 100%;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+            &:first-child {
+                flex: 0 0 40%;
+            }
+            &:last-child {
+                flex: 0 0 60%;
+                display: flex;
+                align-items: end;
+            }
+        }
+
+        &-text {
+            text-align: start;
+
+            &-title {
+                margin-top: 64px;
+                text-align: center;
+            }
+        }
+
+        &-title {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 40px;
+            margin-bottom: 8px;
+        }
+
+        .yellow {
+            font-weight: 800;
+            text-transform: uppercase;
+            color: var(--yellow);
+            font-size: 40px;
+            margin-bottom: 32px;
+        }
+
+        &-img {
+            font-size: 16px;
+            font-weight: 500;
+            text-align: left;
+            position: relative;
+            align-items: center;
+            display: flex;
+            gap: 20px;
+
+            &:before {
+                flex: 0 0 auto;
+                content: "";
+                width: 13px;
+                height: 46px;
+                background-image: url("/src/images/banner/voskl2.png");
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+table {
+    margin: 32px 0;
+    width: 100%;
+    border-collapse: collapse;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    tr {
+        background-color: var(--white);
+        color: var(--black);
+
+        &:first-child {
+            background-color: var(--beige);
+        }
+    }
+
+    td {
+        border: 2px solid var(--gray);
+        padding: 8px;
+        min-width: 150px;
+
+        &:first-child {
+            padding: 15px;
+
+            strong {
+                text-decoration: underline;
+                text-decoration-color: var(--yellow);
+            }
+        }
+    }
+
+    h6 {
+        margin-top: 5px;
+    }
+}

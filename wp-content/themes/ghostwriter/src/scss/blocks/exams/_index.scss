@@ -1,0 +1,43 @@
+.exams {
+    
+    &__background {
+        background-image: url("/src/images/patterns/img01.png");
+    }
+    
+    &__title {
+        color: var(--black);
+        margin-bottom: 32px;
+    }
+    
+    &__item {
+        display: flex;
+        margin-bottom: 24px;
+        
+        &-title {
+            flex: 1 1 25%;
+            padding: 7px 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--orange);
+            font-weight: 700;
+            color: var(--beige);
+            font-size: 20px;
+            line-height: 32px;
+        }
+        
+        &-text {
+            flex: 1 1 75%;
+            display: flex;
+            align-items: center;
+            padding: 7px 48px;
+            font-size: 20px;
+            line-height: 32px;
+            color: var(--black);
+            background: var(--white);
+            border-top: 2px solid var(--very-dark-blue);
+            border-right: 2px solid var(--very-dark-blue);
+            border-bottom: 2px solid var(--very-dark-blue);
+        }
+    }
+}

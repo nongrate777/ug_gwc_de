@@ -1,0 +1,51 @@
+.single {
+    &-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &-content {
+        flex: 0 0 calc(100% - 350px);
+    }
+
+    &-sidebar {
+        flex: 0 0 320px;
+
+        &__form {
+            border: 1px dashed var(--black);
+            padding: 20px;
+        }
+    }
+
+    &-image {
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        &-content {
+            margin-bottom: 20px;
+        }
+    }
+
+    &-list {
+        font-size: 18px;
+        margin-bottom: 20px;
+
+        &-item {
+            display: inline-block;
+            margin-bottom: 10px;
+            counter-increment: list;
+            color: var(--black);
+            text-decoration: underline;
+
+            &:before {
+                content: counter(list) '.';
+            }
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.pros-cons {
+    &__title {
+        text-align: center;
+    }
+
+    &__item {
+        background-color: var(--white);
+        padding: 24px 34px;
+        color: var(--black);
+        font-weight: 500;
+        margin-bottom: 24px;
+        border: 2px solid var(--black);
+    }
+
+    &__pros, &__cons {
+        color: var(--orange);
+        text-align: center;
+        margin: 32px 0;
+
+        span {
+            position: relative;
+            padding-right: 50px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 34px;
+                height: 34px;
+                right: 0;
+                top: 50%;
+                margin-top: -17px;
+            }
+        }
+    }
+
+    &__pros {
+
+        span {
+            &:after {
+                background: url("/src/images/pros-cons/img01.svg");
+            }
+        }
+    }
+
+    &__cons {
+
+        span {
+            &:after {
+                background: url("/src/images/pros-cons/img02.svg");
+            }
+        }
+    }
+}

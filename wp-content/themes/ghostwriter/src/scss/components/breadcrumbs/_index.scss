@@ -1,0 +1,19 @@
+.breadcrumbs {
+    font-size: 14px;
+    padding: 20px 0 15px;
+    color: var(--gray);
+
+    a {
+        padding: 0 5px;
+        color: var(--gray);
+        transition: .3s;
+
+        &:hover {
+            color: var(--black);
+        }
+    }
+
+    .breadcrumb_last {
+        padding: 0 5px;
+    }
+}

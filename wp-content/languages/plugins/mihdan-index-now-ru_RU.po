@@ -1,0 +1,252 @@
+# Translation of Plugins - Index Now - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Index Now - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-14 16:04:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Index Now - Stable (latest release)\n"
+
+#: src/Views/Settings.php:494
+msgid "Bulk Actions"
+msgstr "Логировать действия над таблицей"
+
+#: src/Views/Settings.php:474
+msgid "Outgoing requests"
+msgstr "Логировать исходящие запросы"
+
+#: src/Views/Settings.php:191
+msgid "Term added"
+msgstr "Добавлен терм"
+
+#: src/Views/Settings.php:181
+msgid "Post added"
+msgstr "Добавлена запись"
+
+#: src/Views/Settings.php:161
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: src/Views/WPOSA.php:885
+msgid "Submit"
+msgstr "Отправить"
+
+#: src/Views/Settings.php:391
+msgid "Get Token"
+msgstr "Получить токен"
+
+#: src/Views/Settings.php:390
+msgid "Update Token"
+msgstr "Обновить токен"
+
+#: src/Providers/Yandex/YandexWebmaster.php:25
+msgid "Yandex Webmaster"
+msgstr "Яндекс.Вебмастер"
+
+#: src/IndexNowAbstract.php:250
+msgid "Bot checked the key file"
+msgstr "Бот проверил файл ключа"
+
+#: src/Views/WPOSA.php:1069
+msgid "Click to show Help tab"
+msgstr "Щёлкни для получения помощи"
+
+#: src/Views/Settings.php:464
+msgid "Key logging"
+msgstr "Логировать доступ к ключу"
+
+#: src/Views/Settings.php:484
+msgid "Cron events"
+msgstr "Логировать события Cron"
+
+#: src/Views/Settings.php:506
+msgid "Logs lifetime in days"
+msgstr "Длительность жизни журнала в днях"
+
+#: src/Views/Settings.php:504
+msgid "Lifetime"
+msgstr "Длительность жизни"
+
+#: src/Views/HelpTab.php:128 src/Views/Settings.php:286
+msgid "Google API"
+msgstr "Google API"
+
+#: src/Views/Settings.php:369
+msgid "Access Token"
+msgstr "Токен доступа"
+
+#: src/Views/Settings.php:347
+msgid "Example 1a4c5831b44e469f8a86c36fd88101f5"
+msgstr "Например, 1a4c5831b44e469f8a86c36fd88101f5"
+
+#: src/Views/Settings.php:346
+msgid "App Password"
+msgstr "Пароль приложения"
+
+#: src/Views/Settings.php:336
+msgid "Example 12c41fd597854d47b2911716d7f71e2f"
+msgstr "Например, 12c41fd597854d47b2911716d7f71e2f"
+
+#: src/Views/Settings.php:335
+msgid "App ID"
+msgstr "ID приложения"
+
+#: src/Views/Settings.php:315
+msgid "Yandex API"
+msgstr "Yandex API"
+
+#: src/Views/Settings.php:259
+msgid "Easy to plug-in API solution that websites can call to notify Bing whenever website contents is updated or created allowing instant crawling, indexing and discovery of your site content."
+msgstr "Легко подключаемое API решение, благодаря которому веб-сайты могут уведомлять поисковую систему Bing о каждом обновлении или создании записей сайта, обеспечивая мгновенное наполнение, индексирование и обнаружение содержимого вашего сайта."
+
+#: src/Views/Settings.php:258
+msgid "Bing API"
+msgstr "Bing API"
+
+#: src/Views/Settings.php:231
+msgid "Show example"
+msgstr "Показать пример"
+
+#: src/Views/Settings.php:228
+msgid "Set the API key"
+msgstr "Укажите ключ API"
+
+#: src/Views/Settings.php:208
+msgid "IndexNow is an easy way for websites owners to instantly inform search engines about latest content changes on their website. In its simplest form, IndexNow is a simple ping so that search engines know that a URL and its content has been added, updated, or deleted, allowing search engines to quickly reflect this change in their search results."
+msgstr "IndexNow — это простой способ для владельцев веб-сайтов мгновенно информировать поисковые системы о последних изменениях содержимого на их сайте. В своей простейшей форме IndexNow — это простая проверка связи, благодаря которой поисковые системы узнают, что URL-адрес и его содержимое были добавлены, обновлены или удалены, что позволяет поисковым системам быстро отразить эти изменения в результатах поиска."
+
+#. Plugin Name of the plugin
+#: src/Providers/IndexNow/IndexNow.php:19 src/Views/Settings.php:207
+#: src/Views/Settings.php:245
+msgid "IndexNow"
+msgstr "IndexNow"
+
+#: src/Views/Settings.php:200
+msgid "Comment added"
+msgstr "Добавлен комментарий"
+
+#: src/Views/Settings.php:172
+msgid "Notify SE when"
+msgstr "Уведомлять ПС когда"
+
+#: src/Views/Settings.php:134
+msgid "<p>Here are some available options to help solve your problems.</p><ol><li><a href=\"https://wordpress.org/plugins/mihdan-index-now/\" target=\"_blank\">Plugin home page</a></li><li><a href=\"https://www.kobzarev.com/projects/index-now/\" target=\"_blank\">Plugin docs</a></li><li><a href=\"https://wordpress.org/support/plugin/mihdan-index-now/\" target=\"_blank\">Support forums</a></li><li><a href=\"https://github.com/mihdan/mihdan-index-now/\" target=\"_blank\">Issue tracker</a></li><li><a href=\"https://t.me/+rBLAx8RzcNk1ZWY6\" target=\"_blank\">Help via Telegram</a></li></ol>"
+msgstr "<p>Все возможные доступные варианты, которые помогут решить ваши проблемы.</p><ol><li><a href=\"https://wordpress.org/plugins/mihdan-index-now/\" target=\"_blank\">Страница плагина</a></li><li><a href=\"https://www.kobzarev.com/projects/index-now/\" target=\"_blank\">Документация</a></li><li><a href=\"https://wordpress.org/support/plugin/mihdan-index-now/\" target=\"_blank\">Форум поддержки</a></li><li><a href=\"https://github.com/mihdan/mihdan-index-now/\" target=\"_blank\">Сообщить об ошибке</a></li><li><a href=\"https://t.me/+rBLAx8RzcNk1ZWY6\" target=\"_blank\">Помощь в Telegram</a></li></ol>"
+
+#: src/Views/HelpTab.php:70
+msgid "Bing API key"
+msgstr "Ключ API для Bing"
+
+#: src/Views/HelpTab.php:57
+msgid "Search engine support"
+msgstr "Поддерживаемые ПС"
+
+#: src/Views/HelpTab.php:38
+msgid "IndexNow API key"
+msgstr "Ключ IndexNow"
+
+#: src/Providers/Yandex/YandexIndexNow.php:19
+msgid "Yandex IndexNow"
+msgstr "Яндекс.IndexNow"
+
+#: src/Providers/Bing/BingWebmaster.php:25
+msgid "Bing Webmaster"
+msgstr "Bing.Вебмастер"
+
+#: src/Providers/Bing/BingIndexNow.php:19
+msgid "Bing IndexNow"
+msgstr "Bing.IndexNow"
+
+#: src/Views/Settings.php:445
+msgid "Module for logging incoming request from search engine and outgoing request from site."
+msgstr "Модуль для журналирования входящих запросов из поисковой системы и исходядищих запросов от сайта."
+
+#: src/Views/Settings.php:444
+msgid "Logs"
+msgstr "Журнал"
+
+#: src/Views/Settings.php:279 src/Views/Settings.php:306
+msgid "Example AQAAAAAAWDmFAAbgvUbjwWHB8EkDoF387hLTUta"
+msgstr "Например, AQAAAAAAWDmFAAbgvUbjwWHB8EkDoF387hLTUta"
+
+#: src/Views/Settings.php:358
+msgid "Host ID"
+msgstr "Сайт"
+
+#: src/Views/Settings.php:316
+msgid "Sending a page for reindexing"
+msgstr "Модуль отправки страниц на переиндексацию"
+
+#: src/Views/Settings.php:217 src/Views/Settings.php:268
+#: src/Views/Settings.php:296 src/Views/Settings.php:325
+#: src/Views/Settings.php:454
+msgid "Enable"
+msgstr "Включить"
+
+#: src/Views/Settings.php:133
+msgid "Do you need help?"
+msgstr "Вам нужна помощь?"
+
+#: src/Views/Settings.php:127
+msgid "<p>Please leave us a <a href=\"https://wordpress.org/support/plugin/mihdan-index-now/reviews/#new-post\" target=\"_blank\" title=\"Rate &amp; review it\">★★★★★</a> rating. We really appreciate your support</p>"
+msgstr "<p>Пожалуйста, оставьте положительный отзыв <a href=\"https://wordpress.org/support/plugin/mihdan-index-now/reviews/#new-post\" target=\"_blank\" title=\"Rate &amp; review it\">★★★★★</a> о нашем плагине. Мы очень ценим вашу поддержку.</p>"
+
+#: src/Views/Settings.php:126
+msgid "Enjoyed IndexNow?"
+msgstr "Нравится IndexNow?"
+
+#: src/Views/HelpTab.php:85
+msgid "Yandex Recrawl: Authorization"
+msgstr "Переиндексация Yandex"
+
+#: src/Views/Settings.php:150
+msgid "Post Types"
+msgstr "Типы записей"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/mihdan-index-now/"
+msgstr "https://wordpress.org/plugins/mihdan-index-now/"
+
+#: src/Views/HelpTab.php:111 src/Views/Settings.php:244
+msgid "Bing"
+msgstr "Bing"
+
+#: src/Views/Settings.php:246
+msgid "Yandex"
+msgstr "Яндекс"
+
+#: src/Views/Settings.php:240
+msgid "Search Engine"
+msgstr "Поисковая система"
+
+#: src/Main.php:284
+msgid "Settings"
+msgstr " Настройки"
+
+#: src/Views/WPOSA.php:825
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+#: src/Views/WPOSA.php:804
+msgid "Choose File"
+msgstr "Выберите файл"
+
+#: src/Views/Settings.php:227 src/Views/Settings.php:277
+msgid "API Key"
+msgstr "Ключ API"
+
+#: src/Views/Settings.php:141
+msgid "General"
+msgstr "Основное"
+
+#. Author URI of the plugin
+msgid "https://www.kobzarev.com/"
+msgstr "https://www.kobzarev.com/"
+
+#. Author of the plugin
+msgid "Mikhail Kobzarev"
+msgstr "Михаил Кобзарёв"

@@ -1,0 +1,88 @@
+.btn {
+    padding: 15px 15px 13px;
+    text-align: center;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: 600;
+    min-width: 200px;
+
+    &__square {
+        text-transform: uppercase;
+
+        &_yellow {
+            background-color: var(--yellow);
+            transition: .3s;
+            color: var(--black);
+
+            &:hover {
+                background-color: var(--light-yellow);
+            }
+        }
+
+        &_light_orange {
+            font-size: 12px;
+            font-weight: 500;
+            background-color: var(--light-orange);
+            transition: .3s;
+            color: var(--beige);
+            text-transform: unset;
+
+            &:hover {
+                background-color: var(--orange-hover);
+            }
+        }
+    
+        &_orange {
+            background-color: var(--orange);
+            transition: .3s;
+            color: var(--white);
+        
+            &:hover {
+                background-color: var(--light-orange);
+            }
+        }
+
+        &_gray {
+            background-color: var(--gray);
+            transition: .3s;
+            color: var(--white);
+            font-weight: 400;
+
+            &:hover {
+                background-color: var(--gray);
+            }
+        }
+    
+        &_black {
+            background-color: var(--black);
+            transition: .3s;
+            color: var(--white);
+            text-transform: uppercase;
+        
+            &:hover {
+                background-color: var(--black);
+            }
+        }
+    }
+    
+    &__arrow {
+        position: absolute;
+        display: flex;
+        gap: 8px;
+        bottom: -24px;
+        left: 20px;
+        width: 150px;
+        
+        &-img {
+            width: 28px;
+            height: 14px;
+        }
+        
+        &-text {
+            color: var(--black);
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}
